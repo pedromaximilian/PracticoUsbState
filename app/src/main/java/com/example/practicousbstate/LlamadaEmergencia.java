@@ -23,7 +23,7 @@ public class LlamadaEmergencia extends BroadcastReceiver {
 
         if(action.equalsIgnoreCase(cambioEstado)) {
             if(intent.getExtras().getBoolean("connected")) {
-                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "2664565685"));
+                Intent intent1 = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "911"));
 
                 // Log.d("estado", intent.getAction().toString());
 
